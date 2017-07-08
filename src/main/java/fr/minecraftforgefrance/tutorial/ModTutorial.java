@@ -13,7 +13,7 @@ public class ModTutorial
 {
     public static final String MODID = "tutorial";
     public static Logger logger;
-    
+
     @SidedProxy(clientSide = "fr.minecraftforgefrance.tutorial.client.TutorialClient", serverSide = "fr.minecraftforgefrance.tutorial.TutorialCommon")
     public static TutorialCommon proxy;
 
